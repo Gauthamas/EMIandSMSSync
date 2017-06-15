@@ -44,8 +44,8 @@ This uses MVP model and designed so that it can be rewritten easliy.
  Other options would be
         
    -Running the sync service periodically
-        
-    -Running the sync service whenever a certain number of messages are pending to be synced(say 10 msgs).(considered more efficient)
+   
+   -Running the sync service whenever a certain number of messages are pending to be synced(say 10 msgs).(considered more efficient)
                
                
         
