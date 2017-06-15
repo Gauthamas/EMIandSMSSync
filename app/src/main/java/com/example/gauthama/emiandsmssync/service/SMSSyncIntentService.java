@@ -60,7 +60,7 @@ public class SMSSyncIntentService extends IntentService {
                             @Override
                             public void onNext(User usr) {
                                 dataManager.storePhoneData(user.mobile, usr.id);
-                                sendSMS(dataManager.getSMS(phoneId));
+                                sendSMS(dataManager.getSMS(usr.id));
 
                             }
                         });
