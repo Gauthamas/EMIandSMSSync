@@ -2,6 +2,8 @@
 
 ## Features of EMIandSMSSync
 
+This uses MVP model and designed so that it can be rewritten easliy.
+
 ### EMI calculation
 
 -Given loan amount, interest rate and tenure, calculate emi, total interst payable, total payment
@@ -33,13 +35,17 @@
    
    -Last synced message is stored locally so that it will be remembered.
    
+   
+   
+ -will resync in case of uninstallation and installation.  
+   
 -This model of syncing was used because it is easier to test,
 
-        -Other options would be
+ Other options would be
         
-        -Running the sync service periodically
+   -Running the sync service periodically
         
-        -Running the sync service whenever a certain number of messages are pending to be synced(say 10 msgs).(considered more efficient)
+    -Running the sync service whenever a certain number of messages are pending to be synced(say 10 msgs).(considered more efficient)
                
                
         
