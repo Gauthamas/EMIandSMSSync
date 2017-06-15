@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EMIandSMSSync</string>
+
+    <string name="home_loan">Home Loan Amount(Rupees in Lakhs)</string>
+    <string name="interest_rate">Interest Rate(%)</string>
+    <string name="loan_tenure">Loan Tenure(years)</string>
+    <string name="emi">Loan EMI</string>
+    <string name="interest_payable">Total Interest Payable</string>
+    <string name="payment">Total Payment</string>
+
+    <string name="year_short_form">yr</string>
+    <string name="percentage_short_form">%</string>
+    <string name="lakh_short_form">L</string>
+
+    <string name="principal_amount">Principal Amount</string>
+    <string name="total_interest">Total Interest</string>
+    <string name="piechart_summary">Break-up of total payment</string>
+    <string name="rupees">Rs. </string>
+</resources>
