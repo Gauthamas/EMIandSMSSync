@@ -89,8 +89,8 @@ public class DataManager {
 
 
     public List<SMS> getSMS(long phoneid) {
-        Cursor cursor = context.getContentResolver().query(Uri.parse(SMSInboxURI), null, ID + "> ?",
-                new String[]{Long.toString(phoneid)}, null);
+        Cursor cursor = context.getContentResolver().query(Uri.parse(SMSInboxURI), null, null,
+                null, null);
         List<SMS> smses = new ArrayList<SMS>();
         int idCol = cursor.getColumnIndex(ID);
         int idBody = cursor.getColumnIndex(BODY);
